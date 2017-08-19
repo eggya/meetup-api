@@ -11,13 +11,8 @@ import (
 )
 
 var (
-	apiEndpointBase                 = "https://api.meetup.com"
-	apiEndpointGETGroupEvents       = "/%s/events"
-	apiEndpointGETGroupEvent        = "/%s/events/%s"
-	apiEndpointGETEvents            = "/find/events"
-	apiEndpointGETRecommendedEvents = "/recommended/events"
-	apiEndpointGETMyCalendar        = "/self/calendar"
-	apiEndpointGETMyEvents          = "/self/events"
+	apiEndpointBase           = "https://api.meetup.com"
+	apiEndpointGETGroupEvents = "/%s/events"
 )
 
 type Client struct {
